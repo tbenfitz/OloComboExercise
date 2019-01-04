@@ -1,0 +1,22 @@
+﻿@model OloPizzaExercise.Models.TopSellingPizzasViewModel
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+   <ul>
+      @foreach (KeyValuePair<string, int> topSeller in Model.TopSellers)
+      {
+      <li>@Html.Raw(topSeller.Key) - @Html.Raw(topSeller.Value)</li>         
+      }
+   </ul>   
+</body>
+</html>
