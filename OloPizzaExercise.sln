@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2042
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OloPizzaExercise", "OloPizzaExercise\OloPizzaExercise.csproj", "{628EF105-CB85-4E6B-A7D0-E271C8BD5F60}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{628EF105-CB85-4E6B-A7D0-E271C8BD5F60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{628EF105-CB85-4E6B-A7D0-E271C8BD5F60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{628EF105-CB85-4E6B-A7D0-E271C8BD5F60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{628EF105-CB85-4E6B-A7D0-E271C8BD5F60}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {08FEA196-7AAE-4C78-B9D4-78A9EE64EA52}
+	EndGlobalSection
+EndGlobal
